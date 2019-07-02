@@ -1,0 +1,11 @@
+language: php
+php:
+  - 7.1.9
+  
+  script:
+  - vendor/bin/phpunit
+  
+  after_script:
+  notifications:
+  recipients:
+  - fbiemo@unilurio.ac.mz
