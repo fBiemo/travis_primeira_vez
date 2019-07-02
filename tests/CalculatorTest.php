@@ -37,7 +37,7 @@ class CalculatorTest extends TestCase
     public function testMultiply()
     {
         $value = $this->calc->multiply(2, 3);
-        $this->assertEquals($value, 6);
+        $this->assertEquals($value, 8);
     }
 
     public function testSubtract()
