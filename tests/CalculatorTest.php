@@ -30,7 +30,7 @@ class CalculatorTest extends TestCase
 
     public function testAdd()
     {
-        $value = $this->calc->add(2, 6);
+        $value = $this->calc->add(2, 3);
         $this->assertEquals($value, 5);
     }
 
